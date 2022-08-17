@@ -1,0 +1,28 @@
+TODO
+When the player guesses the chosen player given them a congratulations
+Save the players results
+Display a histogram of their results
+Make icons pretty
+Make game pretty
+
+TODONE
+Make an easy mode where the autocomplete feature only displays players compatible with revealed information
+When an NFL player is chosen display a list of which properties of the player match.
+Make a webpage that has a textbox that autocompletes every NFL player
+Choose the player attributes to check
+* Team
+  - Add cute images 
+* Jersey
+* Position
+* Debut Year
+Pick a random NFL player everyday (Only active)
+
+Other ideas:
+conference
+division
+offense/defense
+
+Case sensitivity
+Improve icons
+Hard/Easy mode
+Not crash when no players are found

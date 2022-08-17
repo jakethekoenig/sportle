@@ -1,0 +1,103 @@
+#maingame {
+    margin: auto;
+    width: 50%;
+}
+
+.guess_info > li{
+    display: inline-block;
+    position: relative;
+    padding: 10%;
+    width: 10%
+}
+.guess_position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+
+.img_container {
+    width: 10%;
+    position: relative;
+}
+
+.guess_img {
+    padding: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.guess_img {
+    top: 12%;
+}
+.X {
+    width: 100%;
+    position: absolute;
+    bottom: -80;
+    left: 0;
+    right: 0;
+}
+
+.correct > .X {
+    display: none;
+}
+
+#guess_records {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guess_n {
+    position: relative;
+    z-index: 1;
+}
+
+li > p {
+    padding-top: 14%;
+}
+
+#maingame > .autocomplete {
+    width: 80%;
+}
+#maingame > #guess_button {
+    width: 20%;
+}
+.incorrect {
+    background-color: #eeeeee;
+    margin: 5px;
+}
+.correct {
+    background-color: #95e67c;
+    margin: 5px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    #maingame {
+        width: 100%;
+    }
+    input {
+      font-size: 50px;
+  }
+
+    #maingame > .autocomplete {
+        width: 100%;
+    }
+    #maingame > #guess_button {
+        display: none;
+    }
+
+.guess_n, .guess_info {
+    position: relative;
+    z-index: 1;
+    right: 0%;
+}
+}

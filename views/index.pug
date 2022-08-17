@@ -1,0 +1,18 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title= title
+    script(src='/player_names.js')
+    script(defer, src='/autocomplete.js')
+    style
+      include ../static/autocomplete.css
+    style
+      include ../static/game.css
+  body
+    div#maingame
+        h1= message
+        div(class="autocomplete")
+            input#playerguess(placeholder="Guess an NFL player", type="text", name="playerguess")
+        input#guess_button(type="submit")
+        ul#guess_records
+
